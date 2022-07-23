@@ -39,7 +39,7 @@ def alphaBetaPruning(randPointList, depth, alpha, beta, child, status: bool):
 
 # take student id
 print("Enter your student ID : ")
-
+StudentId = input()
 # generate MaxShuffles time random number between MIN and MAX
 points = random.sample(range(MIN, MAX), MaxShuffles)
 print("Generated 8 random points between the minimum and maximum point limits:", end=" ")
