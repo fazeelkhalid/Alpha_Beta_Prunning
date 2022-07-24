@@ -83,6 +83,3 @@ if(len(StudentId) >= 5):
     print(" times out of ", end=" ")
     print(len(points), end=" ")
     print(" number of shuffles ")
-
-else:
-    print("Student id lenght is less than 5 please check it")
